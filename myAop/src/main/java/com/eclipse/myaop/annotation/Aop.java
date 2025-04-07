@@ -9,5 +9,5 @@ import java.lang.annotation.*;
 public @interface Aop {
     String jointPath() default "";
 
-    Class<? extends Annotation> joinAnnotation() default Void.class;
+    Class<? extends Annotation> joinAnnotationClass() default Void.class;
 }
